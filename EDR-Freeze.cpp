@@ -33,7 +33,8 @@ BOOL FreezeRun(DWORD targetPID, DWORD targetTID, DWORD sleepTime)
     sa.lpSecurityDescriptor = nullptr;
 
     // 2. Create the output files for the dumps
-    HANDLE hEncDump = CreateFileW(L"t.txt", GENERIC_WRITE, 0, &sa, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
+    std::wstring dumpFileName = L"dump_" + std::to_wstring(targetPID) + L".txt";
+    HANDLE hEncDump = CreateFileW(dumpFileName.c_str(), GENERIC_WRITE, 0, &sa, CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, nullptr);
     if (hEncDump == INVALID_HANDLE_VALUE)
     {
         std::wcerr << L"Failed to create dump files: " << GetLastError() << std::endl;
