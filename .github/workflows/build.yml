@@ -64,7 +64,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release delete v1.0-${{ env.SHORT_SHA }} --cleanup-tag --yes || echo "No release or tag found for v1.0-${{ env.SHORT_SHA }}"
+          gh release delete v1.0-${{ env.SHORT_SHA }} --cleanup-tag --yes || (
+            echo No release or tag found for v1.0-${{ env.SHORT_SHA }}
+            exit /b 0
+          )
+        shell: cmd
 
       - name: Create Release
         id: create_release
